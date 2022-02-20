@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_utama"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/block"
+        android:text="@string/input"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/user"
+        android:textColor="#708090"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/user2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        android:autofillHints=""
+        android:background="@drawable/daftar"
+        android:hint="masukan nama"
+        android:inputType="text"
+        android:textColorHint="#FFFF" />
+
+    <TextView
+        android:id="@+id/mail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/email"
+        android:textColor="#708090"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="230dp"
+        android:autofillHints=""
+        android:background="@drawable/daftar"
+        android:hint="masukan email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFF" />
+
+
+    <TextView
+        android:id="@+id/pass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginRight="262dp"
+        android:text="@string/Pass"
+        android:textColor="#708090"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/kunci2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/email2"
+        android:layout_marginTop="49dp"
+        android:autofillHints=""
+        android:background="@drawable/daftar"
+        android:hint="masukan password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFF" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#87CEEB"
+        android:onClick="halPasien"
+        android:text="@string/submit_data"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/dokterRegister"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginLeft="217dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="9dp"
+        android:textColor="#000"
+        android:backgroundTint="#87CEEB"
+        android:onClick="onClick"
+        android:text="@string/dokterRegis" />
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">E-RESEP</string>
+
+    <string name="header">E-RESEP</string>
+    <string name="log">SIGN IN</string>
+    <string name="email">Email : </string>
+    <string name="Pass">Password : </string>
+    <string name="masuk">Sign In</string>
+    <string name="daftar">Sign Up</string>
+    <string name="input">Register</string>
+    <string name="lupapass">Forgot Password?</string>
+    <string name="user">Full Name: </string>
+    <string name="phone">Phone Number : </string>
+    <string name="radio">Daftar sebagai : </string>
+    <string name="opsi0">Pasien</string>
+    <string name="opsi00">Dokter</string>
+    <string name="submit_data">Daftar</string>
+
+    <string name="resep">RESEP OBAT</string>
+    <string name="sep">E-RESEP</string>
+    <string name="opsi1">Nama Pasien</string>
+    <string name="opsi2">ID Pasien</string>
+    <string name="cari">Cari</string>
+    <string name="kasih_sep">Input Resep Baru</string>
+    <string name="gejala">Penyakit:  </string>
+    <string name="desk">Deskripsi Obat: </string>
+    <string name="submit_resep_riwayat">Submit</string>
+    <string name="riwayat">Riwayat Penyakit : </string>
+    <string name="goLogin">Login</string>
+    <string name="dokterRegis">Dokter Register</string>
+    <string name="kodeRS">Kode RS: </string>
+    <string name="cari_pasien">Cari pasien </string>
+    <string name="show_resep">Tampilkan</string>
+    <string name="edit">Edit </string>
+    <string name="delete">Delete </string>
+</resources>

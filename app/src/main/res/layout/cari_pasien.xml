@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/sep"
+        android:textColor="#FFDEAD"
+        android:fontFamily="@font/block"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="230dp">
+
+        <TextView
+            android:id="@+id/cariPasientextView"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/cari_pasien"
+            android:textColor="#F8F5F5" />
+
+        <EditText
+            android:id="@+id/CariPasien"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginBottom="195dp"
+            android:autofillHints=""
+            android:background="@drawable/form"
+            android:drawableStart="@drawable/cari_foreground"
+            android:drawableLeft="@drawable/cari_foreground"
+            android:inputType="none"
+            android:text="search" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/bt_cari"
+            android:layout_width="154dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#FFDEAD"
+            android:text="@string/cari"
+            android:textColor="#000" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

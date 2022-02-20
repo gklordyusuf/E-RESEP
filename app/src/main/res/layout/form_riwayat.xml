@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:src="@drawable/medicine" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="200dp"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/riwayat"
+            android:textColor="#AAA8A8"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/penyakit_riwayat"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/form_1"
+            android:inputType="text" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit_penyakit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AFEEEE"
+        android:text="@string/submit_resep_riwayat"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
